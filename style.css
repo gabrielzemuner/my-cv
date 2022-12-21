@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+
+}
+
+.information-column {
+    padding: 40px;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+}
+
+.information-column hr {
+    border: none;
+    border-bottom: 1px solid green;
+    margin-top: 18px;
+}
+
+.information-column img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-bottom: 18px;
+}
+
+.information-column h3 {
+    margin-top: 20px;
+}
+
+.contact-description, .education-description, .language-description {
+    text-align: left;
+}
+
+.information-column ul {
+    list-style: none;
+}
+
+.information-column li {
+    margin: 10px 0;
+}
+
+.contact-description a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-description i {
+    color: #008000;
+    margin-right: 10px;
+}
+
+.education-description {
+    margin-top: 32px;
+}
+
+.education-description p {
+    color: #008000;
+}
+
+.language-description .percent {
+    height: 6px;
+    background-color: #008000;
+    margin-top: 5px;
+    width: 225px;
+}
+
+.language-description .percent div {
+    height: 6px;
+    background-color: #32cd32;
+    margin-top: 5px;
+}
+
+.language-description .percent.english div {
+    width: 60%;
+}
+
+.experiences-column {
+    background-color: #FFF;
+    padding: 40px;
+    color: #000;
+}
+
+.experiences-column section {
+    margin-bottom: 30px;
+}
+
+.experiences-column h2 {
+    margin-bottom: 15px;
+}
+
+.experiences-column .experience {
+    margin-bottom: 14px;
+}
+
+.experiences-column .project a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.experiences-column .project a:hover {
+    text-decoration: underline;
+}
+
+.experiences-column .last-date {
+    text-align: right;
+}
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+    }
+
+    .information-column img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .experiences-column .experience {
+        display: flex;
+    }
+
+    .experience-top p {
+        width: 170px;
+    }
+
+}
